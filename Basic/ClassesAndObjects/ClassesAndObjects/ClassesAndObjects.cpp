@@ -11,7 +11,7 @@ int main()
     Person p2("Cristiano", "Caon", 1234);
 
     std::string name = p1.GetName();
-    std::cout << name;
+    // std::cout << name;
 
 
 }
