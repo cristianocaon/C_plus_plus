@@ -3,15 +3,22 @@
 
 #include <iostream>
 
-#include "Person.h"
+//#include "Person.h"
+#include "Tweeter.h"
 
 int main()
 {
     Person p1("Kate", "Gregory", 123);
-    Person p2("Cristiano", "Caon", 1234);
+    {
+        Tweeter t1("John", "Doe", 14, "@johndoe");
+        std::string name2 = t1.GetName();
+    }
+    //Person p2("Cristiano", "Caon", 1234);
 
     std::string name = p1.GetName();
     // std::cout << name;
+
+
 
 
 }
