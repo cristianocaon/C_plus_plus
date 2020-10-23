@@ -7,10 +7,11 @@
 
 int main()
 {
-    Person p1;
-    Person p2;
+    Person p1("Kate", "Gregory", 123);
+    Person p2("Cristiano", "Caon", 1234);
 
     std::string name = p1.GetName();
+    std::cout << name;
 
 
 }

@@ -8,6 +8,7 @@ private:
 	int arbitraryNumber;
 	
 public:
+	Person(std::string first, std::string last, int arbitrary);
 	std::string GetName();
 
 };
